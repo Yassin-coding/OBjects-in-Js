@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id="P1">Hi this is my information ;)</p>
+<p id="P2"></p>
+<p id="P3"></p>
+<p id="P4"></p>
+    
+
+
+
+<script>
+    var mycontact ={
+        name:"Yassin",
+        email:"ktonice@outlook.com",
+        number:280178230999,
+        nickname:"WARwar"
+
+
+    }
+    document.getElementById("P2").innerHTML = "Number: " + mycontact.number;
+    document.getElementById("P3").innerHTML = "Email: " + mycontact.email;
+    document.getElementById("P4").innerHTML = "Nickname: " + mycontact["nickname"];
+
+    
+
+
+</script>
+
+</body>
+
+</html>
